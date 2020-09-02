@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A82C6C9724B588220083C67A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82C6C9624B588220083C67A /* AppDelegate.swift */; };
+		A82C6C9924B588220083C67A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82C6C9824B588220083C67A /* SceneDelegate.swift */; };
+		A82C6C9B24B588220083C67A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82C6C9A24B588220083C67A /* ContentView.swift */; };
+		A82C6C9D24B588240083C67A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82C6C9C24B588240083C67A /* Assets.xcassets */; };
+		A82C6CA024B588240083C67A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82C6C9F24B588240083C67A /* Preview Assets.xcassets */; };
+		A82C6CA324B588240083C67A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82C6CA124B588240083C67A /* LaunchScreen.storyboard */; };
+		A82C6CAD24B58F710083C67A /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A82C6CAC24B58F710083C67A /* Pacifico-Regular.ttf */; };
+		A82C6CB124B598800083C67A /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82C6CB024B598800083C67A /* InfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A82C6C9324B588220083C67A /* NaviCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaviCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82C6C9624B588220083C67A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A82C6C9824B588220083C67A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A82C6C9A24B588220083C67A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A82C6C9C24B588240083C67A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A82C6C9F24B588240083C67A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A82C6CA224B588240083C67A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A82C6CA424B588240083C67A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A82C6CAC24B58F710083C67A /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../../Downloads/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		A82C6CB024B598800083C67A /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A82C6C9024B588220083C67A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A82C6C8A24B588220083C67A = {
+			isa = PBXGroup;
+			children = (
+				A82C6C9524B588220083C67A /* NaviCard */,
+				A82C6C9424B588220083C67A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A82C6C9424B588220083C67A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A82C6C9324B588220083C67A /* NaviCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A82C6C9524B588220083C67A /* NaviCard */ = {
+			isa = PBXGroup;
+			children = (
+				A82C6CAA24B58E5A0083C67A /* fonts */,
+				A82C6C9624B588220083C67A /* AppDelegate.swift */,
+				A82C6C9824B588220083C67A /* SceneDelegate.swift */,
+				A82C6C9A24B588220083C67A /* ContentView.swift */,
+				A82C6C9C24B588240083C67A /* Assets.xcassets */,
+				A82C6CA124B588240083C67A /* LaunchScreen.storyboard */,
+				A82C6CA424B588240083C67A /* Info.plist */,
+				A82C6C9E24B588240083C67A /* Preview Content */,
+				A82C6CB024B598800083C67A /* InfoView.swift */,
+			);
+			path = NaviCard;
+			sourceTree = "<group>";
+		};
+		A82C6C9E24B588240083C67A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A82C6C9F24B588240083C67A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A82C6CAA24B58E5A0083C67A /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A82C6CAC24B58F710083C67A /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A82C6C9224B588220083C67A /* NaviCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82C6CA724B588240083C67A /* Build configuration list for PBXNativeTarget "NaviCard" */;
+			buildPhases = (
+				A82C6C8F24B588220083C67A /* Sources */,
+				A82C6C9024B588220083C67A /* Frameworks */,
+				A82C6C9124B588220083C67A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaviCard;
+			productName = NaviCard;
+			productReference = A82C6C9324B588220083C67A /* NaviCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A82C6C8B24B588220083C67A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Navi Budhraja";
+				TargetAttributes = {
+					A82C6C9224B588220083C67A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = A82C6C8E24B588220083C67A /* Build configuration list for PBXProject "NaviCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A82C6C8A24B588220083C67A;
+			productRefGroup = A82C6C9424B588220083C67A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A82C6C9224B588220083C67A /* NaviCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A82C6C9124B588220083C67A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82C6CA324B588240083C67A /* LaunchScreen.storyboard in Resources */,
+				A82C6CAD24B58F710083C67A /* Pacifico-Regular.ttf in Resources */,
+				A82C6CA024B588240083C67A /* Preview Assets.xcassets in Resources */,
+				A82C6C9D24B588240083C67A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A82C6C8F24B588220083C67A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82C6C9724B588220083C67A /* AppDelegate.swift in Sources */,
+				A82C6C9924B588220083C67A /* SceneDelegate.swift in Sources */,
+				A82C6CB124B598800083C67A /* InfoView.swift in Sources */,
+				A82C6C9B24B588220083C67A /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A82C6CA124B588240083C67A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A82C6CA224B588240083C67A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A82C6CA524B588240083C67A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A82C6CA624B588240083C67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A82C6CA824B588240083C67A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NaviCard/Preview Content\"";
+				DEVELOPMENT_TEAM = FTB5B749A8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NaviCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nbudhraja.NaviCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A82C6CA924B588240083C67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NaviCard/Preview Content\"";
+				DEVELOPMENT_TEAM = FTB5B749A8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NaviCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nbudhraja.NaviCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A82C6C8E24B588220083C67A /* Build configuration list for PBXProject "NaviCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82C6CA524B588240083C67A /* Debug */,
+				A82C6CA624B588240083C67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A82C6CA724B588240083C67A /* Build configuration list for PBXNativeTarget "NaviCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82C6CA824B588240083C67A /* Debug */,
+				A82C6CA924B588240083C67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A82C6C8B24B588220083C67A /* Project object */;
+}
